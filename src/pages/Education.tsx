@@ -11,10 +11,10 @@ const educationData = [
     period: "2023 - 2026",
     gpa: "9.0/10.0",
     highlights: [
-      " ",
-      " ",
-      " ",
-      " "
+      "Secured 9.0/10.0 GPA with consistent academic performance",
+      "Developed real-world projects using React, TypeScript, and Firebase",
+      "Contributed to open-source projects on GitHub (FOSSASIA, NVIDIA)",
+      "Built and deployed full-stack web and Android applications on Vercel"
     ],
     color: 'magenta',
     borderGradient: 'from-pink-500 via-purple-500 to-violet-500',
@@ -26,43 +26,13 @@ const educationData = [
     period: "2019 - 2023",
     gpa: "8.0/10.0",
     highlights: [
-      " ",
-      " ",
-      " ",
-      " "
+      "Achieved 8.0/10.0 GPA in Secondary Education",
+      "Developed strong foundation in Mathematics, Science, and Technology",
+      "Participated in school-level science and technology activities",
+      "Demonstrated early interest in computers and electronics"
     ],
     color: 'cyan',
     borderGradient: 'from-cyan-500 via-teal-500 to-emerald-500',
-  },
-  {
-    degree: "AWS Certified Solutions Architect",
-    school: "Amazon Web Services",
-    location: "Online Certification",
-    period: "2025",
-    gpa: "Professional",
-    highlights: [
-      "Cloud Architecture Design",
-      "AWS Services & Best Practices",
-      "Security & Compliance",
-      "Cost Optimization Strategies"
-    ],
-    color: 'gold',
-    borderGradient: 'from-yellow-500 via-orange-500 to-red-500',
-  },
-  {
-    degree: "Google Professional Cloud Developer",
-    school: "Google Cloud",
-    location: "Online Certification",
-    period: "2024",
-    gpa: "Professional",
-    highlights: [
-      "Cloud-native application development",
-      "Kubernetes & containerization",
-      "CI/CD pipeline implementation",
-      "Microservices architecture"
-    ],
-    color: 'cyan',
-    borderGradient: 'from-blue-500 via-indigo-500 to-purple-500',
   },
 ];
 
