@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FolderKanban, ExternalLink, Github, Star, GitFork } from 'lucide-react';
+import { FolderKanban, ExternalLink, Github, Star, GitFork, Download } from 'lucide-react';
 import PageWrapper from '@/components/PageWrapper';
 import SectionTitle from '@/components/SectionTitle';
 
@@ -11,6 +11,7 @@ const projectsData = [
     technologies: ["React", "TypeScript", "Vite", "FireBase", "deployed on Vercel"],
     liveUrl: "https://miraattendance.vercel.app",
     githubUrl: "https://github.com/Bhanu99517/MIRA_FACIAL_ATTENDANCE",
+    downloadUrl: "#",
     stars: 19,
     forks: 0,
   },
@@ -21,6 +22,7 @@ const projectsData = [
     technologies: ["React", "TypeScript", "Vite", "FireBase", "deployed on Vercel"],
     liveUrl: "https://globalnorthoverseas.vercel.app",
     githubUrl: "https://github.com/Bhanu99517/resumecraft",
+    downloadUrl: "#",
     stars: 1,
     forks: 0,
   },
@@ -31,6 +33,7 @@ const projectsData = [
     technologies: ["Vite", "TypeScript", "Tailwind CSS", "Supabase", "deployed on Vercel"],
     liveUrl: "https://my-art-gallery-pro.vercel.app/",
     githubUrl: "https://github.com/Bhanu99517/my-art-gallery",
+    downloadUrl: "#",
     stars: 3,
     forks: 0,
   },
@@ -41,6 +44,7 @@ const projectsData = [
     technologies: ["HTML5", "CSS", "JavaScript", "deployed on Vercel"],
     liveUrl: "https://shuting-1-0.vercel.app/",
     githubUrl: "https://github.com/Bhanu99517/shuting-1.0",
+    downloadUrl: "#",
     stars: 2,
     forks: 0,
   },
@@ -51,6 +55,7 @@ const projectsData = [
     technologies: ["React", "TypeScript", "Vite", "Tailwind CSS", "Supabase", "deployed on Vercel"],
     liveUrl: "https://bhanutechlab.vercel.app/",
     githubUrl: "https://github.com/Bhanu99517/Bhanu-portfolio",
+    downloadUrl: "#",
     stars: 2,
     forks: 0,
   },
@@ -61,6 +66,7 @@ const projectsData = [
     technologies: ["HTML", "CSS", "JavaSCRIPT"],
     liveUrl: "https://globalnorthoverseas.vercel.app",
     githubUrl: "https://github.com/BhanuTechLab/Consultancy",
+    downloadUrl: "#",
     stars: 2,
     forks: 0,
   },
@@ -128,6 +134,15 @@ const ProjectCard = ({ project, index }: { project: typeof projectsData[0]; inde
 
           {/* Links */}
           <div className="flex items-center gap-3">
+            <a
+              href={project.downloadUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors"
+              title="Download App"
+            >
+              <Download className="w-5 h-5" />
+            </a>
             <a
               href={project.githubUrl}
               target="_blank"
