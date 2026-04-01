@@ -11,7 +11,7 @@ const projectsData = [
     technologies: ["React", "TypeScript", "Vite", "FireBase", "deployed on Vercel"],
     liveUrl: "https://miraattendance.vercel.app",
     githubUrl: "https://github.com/Bhanu99517/MIRA_FACIAL_ATTENDANCE",
-    downloadUrl: "#",
+    downloadUrl: "https://wojpyqvcargyffkyxfln.supabase.co/storage/v1/object/public/shared-files/42cb9343-6c24-4522-8ac5-0c27336aff3c/9de9f5b9-7a65-445c-ab4a-8d890bfa2136.apk",
     stars: 19,
     forks: 0,
   },
