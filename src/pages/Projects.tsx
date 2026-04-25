@@ -5,6 +5,17 @@ import SectionTitle from '@/components/SectionTitle';
 
 const projectsData = [
   {
+    title: "PSS Trust",
+    description: "A full-stack student management portal built for PSS Trust, a registered NGO in Telangana, digitizing fee applications, biometric face attendance, and a three-tier admin approval workflow for underprivileged BPL students.",
+    image: "https://i.ibb.co/k6xMVT4q/Screenshot-2026-04-25-190817.png",
+    technologies: ["React 19", "TypeScript", "Vite", "Tailwind CSS", "Supabase", "PostgreSQL", "Express.js", "face-api.js", "Framer Motion", "PWA", "Vercel"],
+    liveUrl: "https://pss-trust.vercel.app/",
+    githubUrl: "https://github.com/Bhanu99517/pss-trust-web",
+    downloadUrl: "#",
+    stars: 2,
+    forks: 1,
+  },
+  {
     title: "MiraAttendance",
     description: "MIRA ATTENDANCE is a web-based facial recognition attendance platform designed for diploma / polytechnic institutes.Students can check their attendance, exam results, and application status, while admins manage everything through a role-based dashboard.",
     image: "https://i.ibb.co/JRgT6tVT/Screenshot-2026-03-22-130742.png",
