@@ -1,234 +1,253 @@
-# 🌐 Bhanu Portfolio — v2
+<div align="center">
 
-> A modern, responsive personal portfolio website built with React, TypeScript, Vite, Tailwind CSS, and Supabase — deployed on Vercel.
+# 🚀 Bhanu Prakash — Personal Portfolio
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-black?logo=vercel)](https://bhanutechlab.vercel.app)
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/Bhanu99517/Bhanu-portfolio)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
-[![TypeScript](https://img.shields.io/badge/TypeScript-96%25-blue?logo=typescript)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Styled%20with-Tailwind-38BDF8?logo=tailwindcss)](https://tailwindcss.com/)
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;ECE+Engineer+%26+AI+Enthusiast;Open+Source+Contributor;Hardware+%2B+AI+%2B+Software+Builder" alt="Typing SVG" />
+
+<br/>
+
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-bhanutechlab.vercel.app-00D4FF?style=for-the-badge&logoColor=white)](https://bhanutechlab.vercel.app)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](./LICENSE)
+[![Version](https://img.shields.io/badge/Version-2.0.0-blue?style=for-the-badge)](https://github.com/Bhanu99517/Bhanu-portfolio)
+[![Stars](https://img.shields.io/github/stars/Bhanu99517/Bhanu-portfolio?style=for-the-badge&color=yellow)](https://github.com/Bhanu99517/Bhanu-portfolio/stargazers)
+
+<br/>
+
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-6.x-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.x-38BDF8?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Supabase](https://img.shields.io/badge/Supabase-Database-3ECF8E?style=flat-square&logo=supabase&logoColor=white)](https://supabase.com/)
+[![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)](https://vercel.com/)
+
+</div>
 
 ---
 
-## 🌐 Live Demo
+## 📖 About
 
-👉 [bhanutechlab.vercel.app](https://bhanutechlab.vercel.app)
+**Bhanu Prakash Portfolio v2** is a fully responsive, modern personal portfolio website built to showcase projects, skills, achievements, and contact information. It's designed for developers, AI enthusiasts, and tech professionals who want a clean, fast, and professional online presence.
+
+This is the **second iteration** of the portfolio — rebuilt from scratch with a more polished UI, better performance, and richer content sections including an Open Source page, GitHub stats integration, and a contact form powered by Supabase.
+
+> 💡 *"Hardware + AI + Software = Real Products"* — Bhanu Prakash
 
 ---
 
 ## ✨ Features
 
-- **Fully Responsive** — Optimized for mobile, tablet, and desktop
-- **Light / Dark Mode** — Theme toggle built in
-- **Supabase Backend** — Dynamic data storage for contact form or project data
-- **Smooth Animations** — Polished transitions and micro-interactions throughout
-- **PWA Ready** — Installable as a Progressive Web App
-- **shadcn/ui Components** — Accessible, customizable UI component library
-- **SEO-Friendly** — Clean HTML structure and semantic markup
-- **MIT Licensed** — Free to fork and use as your own portfolio template
+### 🎨 Design & UI
+- Modern, minimal dark-themed design
+- Fully responsive across mobile, tablet, and desktop
+- Smooth scroll animations and section transitions
+- Clean typography with professional layout
 
----
+### 📄 Portfolio Sections
+- **Hero** — Animated introduction with typing effect and CTA buttons
+- **About Me** — Background, education, and personal mission
+- **Skills** — Visual tech stack grid with categorized tools and languages
+- **Projects** — Showcase cards with live demo links, tech tags, and descriptions
+- **Open Source** — GitHub stats, achievements, and contribution highlights
+- **Contact** — Contact form with Supabase backend integration
 
-## 🏗️ Portfolio Sections
-
-- **Hero** — Introduction and call-to-action
-- **About Me** — Background, bio, and interests
-- **Skills & Tech Stack** — Visual overview of technologies
-- **Projects** — Cards with live demo and GitHub links
-- **Contact** — Contact form powered by Supabase
-- **Footer** — Social and GitHub links
+### ⚡ Performance
+- Built with **Vite** for lightning-fast builds and HMR
+- Optimized asset loading and code splitting
+- SEO-friendly HTML structure with proper meta tags
+- Deployed on **Vercel** with global CDN
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Technology | Purpose |
+| Category | Technology |
 |---|---|
-| React + TypeScript | UI framework & type safety |
-| Vite | Build tool & dev server |
-| Tailwind CSS | Utility-first styling |
-| shadcn/ui | Accessible UI components |
-| Supabase | Backend — contact form / dynamic data |
-| PostCSS | CSS processing |
-| ESLint | Code linting |
-| Vercel | Hosting & deployment |
+| **Frontend Framework** | React 19 |
+| **Language** | TypeScript |
+| **Build Tool** | Vite |
+| **Styling** | Tailwind CSS |
+| **Backend / DB** | Supabase |
+| **Deployment** | Vercel |
+| **Package Manager** | npm / bun |
+| **Linting** | ESLint |
 
 ---
 
-## 📦 Getting Started
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (v18 or higher)
-- A [Supabase](https://supabase.com/) project (for backend features)
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Bhanu99517/Bhanu-portfolio.git
-   cd Bhanu-portfolio
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Set up environment variables**
-
-   Create a `.env.local` file in the root:
-   ```env
-   VITE_SUPABASE_URL=your_supabase_project_url
-   VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-   ```
-
-   > ⚠️ Never commit your Supabase keys to version control. `.env.local` is already listed in `.gitignore`.
-
-4. **Start the development server**
-   ```bash
-   npm run dev
-   ```
-   The app will be available at `http://localhost:5173`
-
----
-
-## 🏗️ Project Structure
+## 📁 Project Structure
 
 ```
 Bhanu-portfolio/
-├── .github/             # GitHub Actions workflows & issue templates
-├── public/              # Static assets (icons, images, favicon)
+├── .github/                    # GitHub Actions workflows
+├── public/                     # Static assets (favicon, images, icons)
 ├── src/
-│   ├── assets/          # Images and SVGs
-│   ├── components/      # Reusable UI components (Header, Footer, Cards, etc.)
-│   ├── pages/           # Page-level components (Home, About, Projects, Contact)
-│   ├── constants.ts     # Navigation links & static data
-│   ├── types.ts         # TypeScript interfaces & types
-│   ├── App.tsx          # Root component & routing
-│   └── main.tsx         # App entry point
-├── supabase/            # Supabase config & migration files
-├── components.json      # shadcn/ui component config
-├── tailwind.config.ts   # Tailwind CSS configuration
-├── vite.config.ts       # Vite build configuration
-├── tsconfig.json        # TypeScript configuration
-├── eslint.config.js     # ESLint rules
-└── index.html           # HTML entry point
+│   ├── assets/                 # Images, SVGs, and media
+│   ├── components/             # Reusable UI components
+│   │   ├── Header.tsx          # Navigation bar
+│   │   ├── Footer.tsx          # Footer with links
+│   │   ├── Hero.tsx            # Landing hero section
+│   │   ├── About.tsx           # About me section
+│   │   ├── Skills.tsx          # Tech stack display
+│   │   ├── Projects.tsx        # Project cards grid
+│   │   ├── OpenSource.tsx      # GitHub stats & achievements
+│   │   └── Contact.tsx         # Contact form
+│   ├── App.tsx                 # Root component & routing
+│   ├── main.tsx                # React entry point
+│   └── index.css               # Global styles
+├── supabase/                   # Supabase config & migrations
+├── index.html                  # HTML entry point
+├── tailwind.config.ts          # Tailwind configuration
+├── vite.config.ts              # Vite configuration
+├── tsconfig.json               # TypeScript config
+├── package.json                # Dependencies & scripts
+└── README.md                   # This file
 ```
 
 ---
 
-## ☁️ Deploying to Vercel
+## 🚀 Getting Started
 
-1. Push your fork to GitHub
-2. Import the repository at [vercel.com](https://vercel.com)
-3. Add the following environment variables in Vercel's project settings:
-   - `VITE_SUPABASE_URL` — your Supabase project URL
-   - `VITE_SUPABASE_ANON_KEY` — your Supabase anon/public key
-4. Click **Deploy**
+### Prerequisites
 
-> ⚠️ Supabase environment variables **must** be added to Vercel's dashboard for backend features to work in production — not just in `.env.local`.
+Make sure you have the following installed:
+
+- **Node.js** v18 or higher — [Download](https://nodejs.org/)
+- **npm** v9+ or **bun** — Bundled with Node.js
+- A **Supabase** account (for the contact form backend)
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Bhanu99517/Bhanu-portfolio.git
+cd Bhanu-portfolio
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+# or
+bun install
+```
+
+### 3. Configure Environment Variables
+
+Create a `.env` file in the root directory:
+
+```bash
+cp .env.example .env
+```
+
+Fill in your Supabase credentials:
+
+```env
+VITE_SUPABASE_URL=https://your-project-id.supabase.co
+VITE_SUPABASE_ANON_KEY=your-supabase-anon-key
+```
+
+> ⚠️ Never commit your `.env` file — it's already in `.gitignore`.
+
+### 4. Start the Development Server
+
+```bash
+npm run dev
+```
+
+Open **http://localhost:5173** in your browser 🎉
 
 ---
 
-## 🔑 Environment Variables
+## 📜 Available Scripts
 
-| Variable | Required | Description |
+| Script | Command | Description |
 |---|---|---|
-| `VITE_SUPABASE_URL` | ✅ Yes | Your Supabase project URL |
-| `VITE_SUPABASE_ANON_KEY` | ✅ Yes | Your Supabase public anon key |
+| **Dev server** | `npm run dev` | Start Vite dev server with HMR |
+| **Build** | `npm run build` | Compile TypeScript + bundle for production |
+| **Preview** | `npm run preview` | Serve the production `dist/` build locally |
+| **Lint** | `npm run lint` | Run ESLint across the codebase |
 
 ---
 
-## 📜 Scripts
+## 🌐 Deployment
 
-| Command | Description |
+This portfolio is deployed on **Vercel** with automatic deployments on every push to `main`.
+
+### Deploy Your Own Fork
+
+1. Fork this repository
+2. Go to [vercel.com](https://vercel.com) and import your forked repo
+3. Add your environment variables in the Vercel dashboard
+4. Click **Deploy** — done! ✅
+
+Or use the Vercel CLI:
+
+```bash
+npm install -g vercel
+vercel
+```
+
+**Live URL:** [bhanutechlab.vercel.app](https://bhanutechlab.vercel.app)
+
+---
+
+## 🏆 GitHub Achievements
+
+<div align="center">
+
+| Achievement | Description |
 |---|---|
-| `npm run dev` | Start local development server |
-| `npm run build` | Build for production |
-| `npm run preview` | Preview the production build locally |
-| `npm run lint` | Run ESLint checks |
+| 🦈 **Pull Shark ×2** | Merged multiple pull requests |
+| ⭐ **Starstruck** | Repository received 16+ stars |
+| 👥 **Pair Extraordinaire** | Co-authored commits with collaborators |
+| 🧠 **Galaxy Brain ×2** | Discussion answers marked as solutions |
+| 🎯 **YOLO** | Merged a PR without a code review |
+| ⚡ **Quickdraw** | Closed an issue or PR within 5 minutes |
+
+</div>
 
 ---
 
-## 🎨 Customizing the Portfolio
+## 📬 Contact
 
-To make it your own:
+Feel free to reach out for collaborations, freelance work, or just to say hi!
 
-1. Update your name, bio, and links inside `src/constants.ts` and page components
-2. Replace project entries with your own work and descriptions
-3. Swap icons and images in the `public/` and `src/assets/` folders
-4. Adjust theme colors in `tailwind.config.ts`
-5. Configure your Supabase table schema in the `supabase/` folder
-
----
-
-## ☕ Support
-
-If you find this project helpful, consider supporting:
-
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/bhanu99517)
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support-FFDD00?logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/bhanu99517)
+| Platform | Link |
+|---|---|
+| 🌐 **Portfolio** | [bhanutechlab.vercel.app](https://bhanutechlab.vercel.app) |
+| 📧 **Email** | [bhanu99517@gmail.com](mailto:bhanu99517@gmail.com) |
+| 💼 **LinkedIn** | [g-bhanu-prakash-18a476340](https://www.linkedin.com/in/g-bhanu-prakash-18a476340) |
+| 🐦 **X (Twitter)** | [@bhanu9951](https://www.x.com/bhanu9951) |
+| 📸 **Instagram** | [_g_bhanu_prakash_](https://www.instagram.com/_g_bhanu_prakash_) |
+| 🐙 **GitHub** | [Bhanu99517](https://github.com/Bhanu99517) |
 
 ---
 
-## 🤝 Contributing
+## 💖 Support
 
-Contributions, issues, and feature requests are welcome!
+If you like this project or found it helpful:
 
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/your-feature`
-3. Commit your changes: `git commit -m "Add your feature"`
-4. Push to the branch: `git push origin feature/your-feature`
-5. Open a Pull Request
-
-Please review [SECURITY.md](./SECURITY.md) before reporting any vulnerabilities.
-
----
-
-## 🔄 Portfolio Versions
-
-| Repo | Version | Live URL |
-|---|---|---|
-| [portfolio](https://github.com/Bhanu99517/portfolio) | v1 | [bhanutechlab1.vercel.app](https://bhanutechlab1.vercel.app) |
-| [Bhanu-portfolio](https://github.com/Bhanu99517/Bhanu-portfolio) | v2 *(this repo)* | [bhanutechlab.vercel.app](https://bhanutechlab.vercel.app) |
+- ⭐ **Star this repository** — it means a lot!
+- ☕ [Buy Me a Coffee](https://buymeacoffee.com/bhanu99517)
+- 🍵 [Ko-fi](https://ko-fi.com/bhanu99517)
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
+This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for full details.
+
+```
+MIT License — Copyright (c) 2024 G Bhanu Prakash
+Free to use, modify, and distribute with attribution.
+```
 
 ---
 
-## 👤 Author
+<div align="center">
 
-**Bhanu** — [@Bhanu99517](https://github.com/Bhanu99517)
+Made with ❤️ by **[Bhanu Prakash](https://github.com/Bhanu99517)**
 
----
+*ECE Engineer · Full Stack Developer · Open Source Enthusiast*
 
-*Built with ❤️ using React, TypeScript, Vite, Tailwind CSS, and Supabase*
+[![GitHub](https://img.shields.io/badge/Follow_on_GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Bhanu99517)
 
----
-
-### ⚡ Performance
-Built with Vite for fast builds
-Optimized assets and clean code
-SEO-friendly structure 
-
----
-
-### 🧰 Tech Stack
-React
-TypeScript
-Vite
-Tailwind CSS
-HTML5 & CSS3
-Vercel (Deployment)
-
----
-
-### 🚀 Getting Started
-Prerequisites
-Node.js (v18 or higher)
-npm or yarn
+</div>
