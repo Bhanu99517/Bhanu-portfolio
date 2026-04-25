@@ -16,6 +16,17 @@ const projectsData = [
     forks: 1,
   },
   {
+    title: "Shareit Link",
+    description: "A real-time instant file sharing web app with Google Sign-In, letting authenticated users upload files and share them instantly via shareable links.",
+    image: "https://i.ibb.co/zWfvPBgf/Screenshot-2026-04-25-202609.png",
+    technologies: ["React", "TypeScript", "Vite", "Tailwind CSS", "Supabase", "Google OAuth", "Vercel"],
+    liveUrl: "https://shareit-link.vercel.app/",
+    githubUrl: "https://github.com/Bhanu99517/shareit-link",
+    downloadUrl: "#",
+    stars: 2,
+    forks: 0,
+  },
+  {
     title: "MiraAttendance",
     description: "MIRA ATTENDANCE is a web-based facial recognition attendance platform designed for diploma / polytechnic institutes.Students can check their attendance, exam results, and application status, while admins manage everything through a role-based dashboard.",
     image: "https://i.ibb.co/JRgT6tVT/Screenshot-2026-03-22-130742.png",
@@ -67,7 +78,7 @@ const projectsData = [
     liveUrl: "https://bhanutechlab.vercel.app/",
     githubUrl: "https://github.com/Bhanu99517/Bhanu-portfolio",
     downloadUrl: "#",
-    stars: 2,
+    stars: 3,
     forks: 0,
   },
   {
