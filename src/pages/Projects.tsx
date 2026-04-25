@@ -8,7 +8,7 @@ const projectsData = [
     title: "PSS Trust",
     description: "A full-stack student management portal built for PSS Trust, a registered NGO in Telangana, digitizing fee applications, biometric face attendance, and a three-tier admin approval workflow for underprivileged BPL students.",
     image: "https://i.ibb.co/k6xMVT4q/Screenshot-2026-04-25-190817.png",
-    technologies: ["React 19", "TypeScript", "Vite", "Tailwind CSS", "Supabase", "PostgreSQL", "Express.js", "face-api.js", "Framer Motion", "PWA", "Vercel"],
+    technologies: ["React 19", "TypeScript", "Vite", "Tailwind CSS", "Supabase", "PostgreSQL", "Express.js", "face-api.js", "Framer Motion", "SMTP", "PWA", "Vercel"],
     liveUrl: "https://pss-trust.vercel.app/",
     githubUrl: "https://github.com/Bhanu99517/pss-trust-web",
     downloadUrl: "#",
