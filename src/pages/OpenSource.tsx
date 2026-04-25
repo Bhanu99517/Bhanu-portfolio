@@ -70,10 +70,10 @@ const ownProjects = [
 ];
 
 const stats = [
-  { icon: Code2, value: "150+", label: "Pull Requests" },
-  { icon: Star, value: "5,000+", label: "Stars Earned" },
-  { icon: GitFork, value: "800+", label: "Forks" },
-  { icon: Users, value: "50+", label: "Contributors" },
+  { icon: Code2, value: "62+", label: "Pull Requests" },
+  { icon: Star, value: "134+", label: "Stars Earned" },
+  { icon: GitFork, value: "4+", label: "Forks" },
+  { icon: Users, value: "275+", label: "Followers" },
 ];
 
 const OpenSource = () => {
