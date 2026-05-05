@@ -26,7 +26,7 @@ const socialLinks = [
   {
     name: 'LinkedIn',
     icon: Linkedin,
-    url: 'https://linkedin.com/in/bhanu99517',
+    url: 'https://www.linkedin.com/in/g-bhanu-prakash-18a476340',
     color: 'hover:text-[#0A66C2]',
     bgColor: 'hover:bg-[#0A66C2]/20',
   },
