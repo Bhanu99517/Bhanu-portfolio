@@ -114,9 +114,9 @@ const Home = () => {
               transition={{ delay: 1.1 }}
             >
               {[
-                { icon: Github, href: '#', label: 'GitHub' },
-                { icon: Linkedin, href: '#', label: 'LinkedIn' },
-                { icon: Twitter, href: '#', label: 'Twitter' },
+                { icon: Github, href: 'https://github.com/Bhanu99517', label: 'GitHub' },
+                { icon: Linkedin, href: 'https://www.linkedin.com/in/bhanu99517', label: 'LinkedIn' },
+                { icon: Twitter, href: 'https://x.com/bhanu99517', label: 'Twitter' },
               ].map((social, index) => (
                 <motion.a
                   key={social.label}
