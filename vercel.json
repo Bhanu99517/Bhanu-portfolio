@@ -1,9 +1,8 @@
 {
-  "routes": [
-    { "src": "/sitemap.xml", "dest": "/sitemap.xml", "headers": { "Content-Type": "application/xml" } },
-    { "src": "/robots.txt", "dest": "/robots.txt" },
-    { "src": "/favicon.ico", "dest": "/favicon.ico" },
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/index.html" }
+  "rewrites": [
+    {
+      "source": "/((?!sitemap\\.xml|robots\\.txt|favicon\\.ico).*)",
+      "destination": "/index.html"
+    }
   ]
 }
