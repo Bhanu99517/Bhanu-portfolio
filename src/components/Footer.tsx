@@ -5,7 +5,7 @@ const socialLinks = [
   {
     name: 'Art Gallery',
     icon: Palette,
-    url: 'https://my-art-gallery-eight.vercel.app',
+    url: 'https://my-art-gallery-pro.vercel.app',
     color: 'hover:text-[#7e6022]',
     bgColor: 'hover:bg-[#7e6022]/20',
   },
@@ -26,7 +26,7 @@ const socialLinks = [
   {
     name: 'LinkedIn',
     icon: Linkedin,
-    url: 'https://www.linkedin.com/in/g-bhanu-prakash-18a476340',
+    url: 'https://www.linkedin.com/in/bhanu99517',
     color: 'hover:text-[#0A66C2]',
     bgColor: 'hover:bg-[#0A66C2]/20',
   },
