@@ -5,6 +5,17 @@ import SectionTitle from '@/components/SectionTitle';
 
 const projectsData = [
   {
+    title: "TGPALA | Telangana Gazetted Polytechnic All Lecturers Association",
+    description: "A full-stack custom website, built for TGPALA, a registered association of Telangana Polytechnic Lecturers, featuring a dynamic admin dashboard for managing members, events, notifications, and also can manage Home, About Us, Members, Gallery, Contact Us pages by admin dashboard. this website is build for voting in the association elections, and also for managing the association's events and notifications.",
+    image: "https://i.ibb.co/k6xMVT9q/Screenshot-2026-04-25-190818.png",
+    technologies: ["React 19", "TypeScript", "Vite", "Tailwind CSS", "Supabase", "PostgreSQL", "Express.js", "Framer Motion", "SMTP", "PWA", "Vercel"],
+    liveUrl: "https://tgpala.vercel.app/",
+    githubUrl: "https://github.com/Bhanu99517/tgpala-web",
+    downloadUrl: "#",
+    stars: 2,
+    forks: ,
+  },
+  {
     title: "PSS Trust",
     description: "A full-stack student management portal built for PSS Trust, a registered NGO in Telangana, digitizing fee applications, biometric face attendance, and a three-tier admin approval workflow for underprivileged BPL students.",
     image: "https://i.ibb.co/k6xMVT4q/Screenshot-2026-04-25-190817.png",
@@ -12,8 +23,8 @@ const projectsData = [
     liveUrl: "https://pss-trust.vercel.app/",
     githubUrl: "https://github.com/Bhanu99517/pss-trust-web",
     downloadUrl: "#",
-    stars: 2,
-    forks: 1,
+    stars: 7,
+    forks: 3,
   },
   {
     title: "Shareit Link",
