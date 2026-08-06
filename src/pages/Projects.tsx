@@ -7,7 +7,7 @@ const projectsData = [
   {
     title: "TGPALA | Telangana Gazetted Polytechnic All Lecturers Association",
     description: "A full-stack custom website, built for TGPALA, a registered association of Telangana Polytechnic Lecturers, featuring a dynamic admin dashboard for managing members, events, notifications, and also can manage Home, About Us, Members, Gallery, Contact Us pages by admin dashboard. this website is build for voting in the association elections, and also for managing the association's events and notifications.",
-    image: "https://i.ibb.co/k6xMVT9q/Screenshot-2026-04-25-190818.png",
+    image: "https://i.ibb.co/zWfvPBgf/Screenshot-2026-04-25-202609.png",
     technologies: ["React 19", "TypeScript", "Vite", "Tailwind CSS", "Supabase", "PostgreSQL", "Express.js", "Framer Motion", "SMTP", "PWA", "Vercel"],
     liveUrl: "https://tgpala.vercel.app/",
     githubUrl: "https://github.com/Bhanu99517/tgpala-web",
