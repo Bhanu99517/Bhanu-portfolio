@@ -13,7 +13,7 @@ const projectsData = [
     githubUrl: "https://github.com/Bhanu99517/tgpala-web",
     downloadUrl: "#",
     stars: 2,
-    forks: ,
+    forks: 0,
   },
   {
     title: "PSS Trust",
